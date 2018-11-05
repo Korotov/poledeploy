@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <title>Poledeluxe - Школа танцев на пилоне</title>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:300,400,500,700&amp;amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link href="/css/styles.css" rel="stylesheet">
+  <meta name="description" content="">
+  <meta name="keyword" content="">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="/js/bundle.js"></script>
+  <body class="page">
+    <div class="wrapper">
+      <div class="l-header">
+        <header class="header"><a class="logo" href="/"><img class="logo__img" src="/img/logo.png" srcset="/img/logo@2x.png 2x, /img/logo@3x.png 3x" alt="Школа танцев" title="Школа танцев"></a>
+          <div class="infolist">
+            <div class="infoblock"><img class="infoblock__img" src="/img/placeholder.svg" alt="Адрес">
+              <div class="infoblock__text">
+                <header class="infoblock__title">Адреса:</header>
+                <p class="infoblock__desc">ул. Ленина, д.52/13, 2 этаж<br>ТЦ "Континент", 2 этаж</p>
+              </div>
+            </div>
+            <div class="infoblock"><img class="infoblock__img" src="/img/telephone.svg" alt="Телефон">
+              <div class="infoblock__text">
+                <header class="infoblock__title">Телефон:</header>
+                <p class="infoblock__desc">+375 29 539-39-36</p>
+              </div>
+            </div>
+            <div class="infoblock"><img class="infoblock__img" src="/img/dashboard.svg" alt="Время работы">
+              <div class="infoblock__text">
+                <header class="infoblock__title">Время работы:</header>
+                <p class="infoblock__desc">с 8:00 до 22:00</p>
+              </div>
+            </div>
+          </div>
+          <hr class="header__line">
+        </header>
+        <nav class="navbar">
+          <ul class="mainmenu">
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/index.html"><span class="mainmenu__text">Главная</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/styles.html"><span class="mainmenu__text">Для взрослых</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/kids.html"><span class="mainmenu__text">Цирковая студия</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/schedule.html"><span class="mainmenu__text">Расписание</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/trainers.html"><span class="mainmenu__text">Преподаватели</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/price.html"><span class="mainmenu__text">Цены</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/contact.html"><span class="mainmenu__text">Контакты</span></a></li>
+          </ul>
+          <ul class="social">
+            <li class="social__item"><a class="social__link" href="https://www.instagram.com/poledeluxe_vitebsk/"><img class="social__icon" src="/img/instagram-logo.svg" alt="Instagram"></a></li>
+            <li class="social__item"><a class="social__link" href="https://www.youtube.com/channel/UCEkprx4FhoecTXnatscmwOA"><img class="social__icon" src="/img/youtube-logotype.svg" alt="Youtube"></a></li>
+            <li class="social__item"><a class="social__link" href="https://vk.com/poledeluxe"><img class="social__icon" src="/img/vk-social-logotype.svg" alt="vKontakte"></a></li>
+          </ul>
+        </nav>
+        <button class="raspisanie-btn">
+          <div class="raspisanie-btn__icon"><img src="/img/dashboard.svg" alt="Расписание"></div><span class="raspisanie-btn__text">Расписание на завтра</span>
+        </button>
+        <button class="hamburger hamburger--arrow-r" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+        <ul class="mobilemenu">
+          <li class="mobilemenu__item"><a class="mobilemenu__link" href="/"><span class="mobilemenu__text">Главная   </span></a></li>
+          <li class="mobilemenu__item"><a class="mobilemenu__link" href="/styles.html"><span class="mobilemenu__text">Для взрослых</span></a></li>
+          <li class="mobilemenu__item"><a class="mobilemenu__link" href="/kids.html"><span class="mobilemenu__text">Цирковая студия</span></a></li>
+          <li class="mobilemenu__item"><a class="mobilemenu__link" href="/schedule.html"><span class="mobilemenu__text">Расписание</span></a></li>
+          <li class="mobilemenu__item"><a class="mobilemenu__link" href="/trainers.html"><span class="mobilemenu__text">Преподаватели</span></a></li>
+          <li class="mobilemenu__item"><a class="mobilemenu__link" href="/price.html"><span class="mobilemenu__text">Акции и цены</span></a></li>
+          <li class="mobilemenu__item"><a class="mobilemenu__link" href="contact.html"><span class="mobilemenu__text">Контакты</span></a></li><br>
+          <ul class="social">
+            <li class="social__item"><a class="social__link" href="https://www.instagram.com/poledeluxe_vitebsk/"><img class="social__icon" src="/img/instagram-logo.svg" alt="Instagram"></a></li>
+            <li class="social__item"><a class="social__link" href="https://www.youtube.com/channel/UCEkprx4FhoecTXnatscmwOA"><img class="social__icon" src="/img/youtube-logotype.svg" alt="Youtube"></a></li>
+            <li class="social__item"><a class="social__link" href="https://vk.com/poledeluxe"><img class="social__icon" src="/img/vk-social-logotype.svg" alt="vKontakte"></a></li>
+          </ul>
+        </ul>
+        <button class="raspisanie-btn_md"><span class="raspisanie-btn__icon_md"><img src="/img/dashboard_white.svg" alt="Расписание"></span><span class="raspisanie-btn__text_md">Расписание на завтра</span></button>
+      </div>
+      <section class="l-slider">
+        <div class="slider">
+          <div class="slider__form"><span class="slider__title">Первое пробное занятие всего за 3 рубля!</span><br><span class="slide__text">При покупке абонемента на пробном занятии: <strong>пробное занятие БЕСПЛАТНО + 1 занятие в подарок!</strong></span>
+            <div class="f-try">
+              <form>
+                <input class="textfield" type="text" name="try_name" placeholder="Ваше имя">
+                <select class="select">
+                  <option disabled selected>Направление</option>
+                  <option>Exotic PoleDance</option>
+                  <option>Crossfit</option>
+                  <option>Zumba Deluxe</option>
+                </select>
+                <input class="textfield" type="phone" name="try_phone" placeholder="+375">
+                <button class="btn" type="submit">Записаться на пробное занятие</button>
+              </form>
+            </div>
+          </div>
+          <div class="slider__desc"><strong>Запись занятий по телефону</strong><br><span class="slider__phone">+375 29 539-39-36</span><br><span class="slider__text">Для всех желающих, кто хочет научиться красиво танцевать, подтянуть фигуру, развить гибкость и пластику тела, научиться выполнять головокружительные трюки.</span></div>
+        </div>
+      </section>
+      <section class="l-news">
+        <div class="news">
+          <hr class="line line_short">
+          <h2 class="news__title">Последние новости школы</h2>
+          <div class="news__list">
+            <div class="t-news">
+              <figure class="t-news__img"> <img src="img/news/news1.jpg" srcset="img/news/news1@2x.jpg 2x,img/news/news1@3x.jpg 3x"></figure>
+              <h3 class="t-news__title">Новая программа для детей</h3>
+              <p class="t-news__desc">Nunc aliquam ipsum quis neque dictum volutpat. Donec dapibus lacinia nisi, eu porta diam bibendum non. Etiam interdum risus quis magr. Etiam in massa ut risus condimentum bibendum.</p>
+              <button class="t-news__btn">Подробнее ...</button>
+            </div>
+            <div class="t-news">
+              <figure class="t-news__img"> <img src="img/news/news2.jpg" srcset="img/news/news2@2x.jpg 2x,img/news/news2@3x.jpg 3x"></figure>
+              <h3 class="t-news__title">Как помогает солярий</h3>
+              <p class="t-news__desc">Nunc aliquam ipsum quis neque dictum volutpat. Donec dapibus lacinia nisi, eu porta diam bibendum non. Etiam interdum risus quis magr. Etiam in massa ut risus condimentum bibendum.</p>
+              <button class="t-news__btn">Подробнее ...</button>
+            </div>
+            <div class="t-news">
+              <figure class="t-news__img"> <img src="img/news/news3.jpg" srcset="img/news/news3@2x.jpg 2x,img/news/news3@3x.jpg 3x"></figure>
+              <h3 class="t-news__title">Что такое кросс-фит?</h3>
+              <p class="t-news__desc">Nunc aliquam ipsum quis neque dictum volutpat. Donec dapibus lacinia nisi, eu porta diam bibendum non. Etiam interdum risus quis magr. Etiam in massa ut risus condimentum bibendum.</p>
+              <button class="t-news__btn">Подробнее ...</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="l-styles">
+        <div class="styles">
+          <hr class="line line_short">
+          <h2 class="styles__title">Наши направления</h2>
+          <div class="styles__list">
+            <div class="t-style">
+              <figure class="t-style__img"><img src="img/styles/3359.jpg" srcset="img/styles/3359@2x.jpg 2x, img/styles/3359@3x.jpg 3x" alt="Exotic PoleDance"></figure>
+              <header class="t-style__header">
+                <h3 class="t-style__title">Exotic PoleDance</h3><span class="t-style__subtitle">танец на пилоне</span>
+              </header>
+              <div class="t-style__schedule"><a class="btn">Смотреть расписание </a></div>
+            </div>
+            <div class="t-style">
+              <figure class="t-style__img"><img src="img/styles/pkgl-3-y-aj-6-g.jpg" srcset="img/styles/pkgl-3-y-aj-6-g@2x.jpg 2x, img/styles/pkgl-3-y-aj-6-g@3x.jpg 3x" alt="Crossfit"></figure>
+              <header class="t-style__header">
+                <h3 class="t-style__title">Crossfit</h3><span class="t-style__subtitle">кросс-фит</span>
+              </header>
+              <div class="t-style__schedule"><a class="btn">Смотреть расписание</a></div>
+            </div>
+            <div class="t-style">
+              <figure class="t-style__img"><img src="img/styles/mwa-2-b-5-l-1-fk.jpg" srcset="img/styles/mwa-2-b-5-l-1-fk@2x.jpg 2x, img/styles/mwa-2-b-5-l-1-fk@3x.jpg 3x" alt="Zumba deluxe"></figure>
+              <header class="t-style__header">
+                <h3 class="t-style__title">Zumba deluxe</h3><span class="t-style__subtitle">зумба</span>
+              </header>
+              <div class="t-style__schedule"><a class="btn">Смотреть расписание</a></div>
+            </div>
+          </div><a class="btn_allstyles" href="/styles.html">Посмотреть все направления</a>
+        </div>
+      </section>
+      <section class="l-aboutus">
+        <div class="aboutus">
+          <div class="aboutus__block"><img class="aboutus__img" src="img/logo@2x.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" alt="Школа танцев" title="Школа танцев">
+            <h2 class="aboutus__title">История школы танца</h2>
+            <p class="aboutus__desc">Наша школа всегда полна свежих и разных идей. Мы постараемся расширять спектр танцевальных направлений, создавая прекрасные условия для комфортного обучения. При первом посещении школы Вы можете взять пробную тренировку на любое из направлений. Цены доступны для каждого, а разработанная система скидок и акций Вас порадует. Администраторы с удовольствием проконсультируют и помогут выбрать вместе с Вами удобное время посещения, запишут на занятие.</p>
+            <button class="aboutus__btn">Подробнее о танцах</button>
+          </div>
+        </div>
+      </section>
+      <section class="l-features hide-mobile">
+        <div class="features">
+          <hr class="line line_short">
+          <h2 class="features__title">5 причин почему PoleDeluxe?</h2>
+          <ul class="features__list">
+            <li class="features__item"><img class="features__icon" src="../img/heart.svg"><span class="features__text">Индивидуальный подход</span></li>
+            <li class="features__item"><img class="features__icon" src="../img/heart.svg"><span class="features__text">Профессиональные тренера</span></li>
+            <li class="features__item"><img class="features__icon" src="../img/heart.svg"><span class="features__text">Комфортные условия тренировок</span></li>
+            <li class="features__item"><img class="features__icon" src="../img/heart.svg"><span class="features__text">Специальное оборудование</span></li>
+            <li class="features__item"><img class="features__icon" src="../img/heart.svg"><span class="features__text">Скидки и акции для клиентов</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="l-trainers">
+        <div class="trainers">
+          <hr class="line line_short">
+          <h2 class="trainers__title">Наши преподаватели</h2>
+          <div class="trainers__list">
+            <div class="t-trainer">
+              <figure class="t-trainer__img"><img src="/img/trainers/3359.jpg" srcset="img/trainers/3359@2x.jpg 2x, img/trainers/3359@3x.jpg 3x" alt="Exotic PoleDance"></figure>
+              <header class="t-trainer__header">
+                <h3 class="t-trainer__title">Ирина</h3><span class="t-trainer__subtitle">хореограф</span>
+              </header>
+            </div>
+            <div class="t-trainer">
+              <figure class="t-trainer__img"><img src="/img/trainers/2.jpg" srcset="img/trainers/2@2x.jpg 2x, img/trainers/2@3x.jpg 3x" alt="Exotic PoleDance"></figure>
+              <header class="t-trainer__header">
+                <h3 class="t-trainer__title">Ирина</h3><span class="t-trainer__subtitle">хореограф</span>
+              </header>
+            </div>
+            <div class="t-trainer">
+              <figure class="t-trainer__img"><img src="/img/trainers/3.jpg" srcset="img/trainers/3@2x.jpg 2x, img/trainers/3@3x.jpg 3x" alt="Exotic PoleDance"></figure>
+              <header class="t-trainer__header">
+                <h3 class="t-trainer__title">Ирина</h3><span class="t-trainer__subtitle">хореограф</span>
+              </header>
+            </div>
+          </div><a class="trainers__btn" href="/trainers.html">Посмотреть всех преподавателей</a>
+        </div>
+      </section>
+      <footer class="l-footer">
+        <section class="promo">
+          <header class="promo__header">
+            <hr class="line line_short">
+            <h2 class="promo__title">Акции и цены</h2>
+          </header>
+          <div class="promo__content">
+            <div class="slider_promo"><img class="slider__image_promo" src="/img/promo/promo1.jpg" srcset="img/promo/promo1@2x.jpg 2x, img/promo/promo1@3x.jpg 3x" alt="Акция"></div>
+            <form class="promo__form">
+              <label class="promo__form-label" for="promo_styles">Выберите направление</label>
+              <select class="promo__select" id="promo_styles">
+                <option>Exotic PoleDance</option>
+                <option>Crossfit</option>
+                <option>Zumba Deluxe</option>
+              </select>
+              <select class="promo__select" id="promo_count">
+                <option selected>4 занятия</option>
+                <option>8 занятий</option>
+                <option>12 занятий</option>
+                <option>16 занятия</option>
+              </select>
+              <div class="promo__price">27 бел. руб.</div>
+              <input class="promo__textfield" type="phone" name="promo_phone" placeholder="+375">
+              <button class="promo__btn" type="submit">Забронировать абонемент</button>
+            </form>
+          </div><a class="promo__btn" href="/price.html">Посмотреть все цены и акции</a>
+        </section>
+        <div class="footer">
+          <div class="footer__topline"><img class="footer__logo" src="/img/logo@2x.png" srcset="/img/logo@2x.png 2x, /img/logo@3x.png 3x" alt="Школа танцев" title="Школа танцев">
+            <ul class="social">
+              <li class="social__item"><a class="social__link" href="https://www.instagram.com/poledeluxe_vitebsk/"><img class="social__icon" src="/img/instagram-logo.svg" alt="Instagram"></a></li>
+              <li class="social__item"><a class="social__link" href="https://www.youtube.com/channel/UCEkprx4FhoecTXnatscmwOA"><img class="social__icon" src="/img/youtube-logotype.svg" alt="Youtube"></a></li>
+              <li class="social__item"><a class="social__link" href="https://vk.com/poledeluxe"><img class="social__icon" src="/img/vk-social-logotype.svg" alt="vKontakte"></a></li>
+            </ul>
+          </div>
+          <hr class="line hide-mobile">
+          <ul class="mainmenu">
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/index.html"><span class="mainmenu__text">Главная</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/styles.html"><span class="mainmenu__text">Для взрослых</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/kids.html"><span class="mainmenu__text">Цирковая студия</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/schedule.html"><span class="mainmenu__text">Расписание</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/trainers.html"><span class="mainmenu__text">Преподаватели</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/price.html"><span class="mainmenu__text">Цены</span></a></li>
+            <li class="mainmenu__item"><a class="mainmenu__link" href="/contact.html"><span class="mainmenu__text">Контакты</span></a></li>
+          </ul>
+          <hr class="line hide-mobile">
+          <div class="footer__bottomline"><span class="copyright">Все права защищены (с) 2017 PoleDeluxe.by</span><a class="brandlab" href="https://brandlab.by"><img class="brandlab__img" src="/img/logo-brandlab.svg" alt="BrandLab"></a></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Poledeluxe</title>
+</head>
+<body>
+  <h1>Скоро тут появиться новый сайт</h1>
+</body>
+</html>
