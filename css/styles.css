@@ -3,7 +3,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "PF Square Sans Pro";
-  src: url(fonts/PFSquareSansProExtraBlack.ttf) format("truetype");
+  src: url("../fonts/PFSquareSansProExtraBlack.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 
@@ -601,7 +601,7 @@ select:-moz-focusing {
   appearance: none !important;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url(img/select_arrow.svg), linear-gradient(to bottom, #fcfa89, #faa72b);
+  background-image: url("../img/select_arrow.svg"), linear-gradient(to bottom, #fcfa89, #faa72b);
   background-size: 25px 25px, 43px 100%;
   background-position: right 8px center,right center;
   background-repeat: no-repeat;
@@ -618,7 +618,7 @@ select:-moz-focusing {
 
 .l-header {
   position: relative;
-  background: transparent url(img/bg_top.jpg) center top no-repeat;
+  background: transparent url("../img/bg_top.jpg") center top no-repeat;
   background-size: auto 100%; }
   @media screen and (max-width: 1024px) {
     .l-header {
@@ -1007,7 +1007,7 @@ select:-moz-focusing {
   background-size: auto; }
   @media screen and (min-width: 1024px) {
     .l-slider {
-      background: transparent url(img/slides/slide-3.jpg) center top no-repeat; } }
+      background: transparent url("../img/slides/slide-3.jpg") center top no-repeat; } }
 
 .slider {
   display: flex;
@@ -1129,7 +1129,7 @@ select:-moz-focusing {
   background-size: cover; }
   @media screen and (min-width: 1024px) {
     .l-styles {
-      background: transparent url(img/back.jpg) center top no-repeat; } }
+      background: transparent url("../img/back.jpg") center top no-repeat; } }
 
 .styles {
   display: flex;
@@ -1254,7 +1254,7 @@ select:-moz-focusing {
   background-size: auto 100%; }
   @media screen and (min-width: 1024px) {
     .l-aboutus {
-      background: transparent url(img/bg_about.jpg) center top no-repeat; } }
+      background: transparent url("../img/bg_about.jpg") center top no-repeat; } }
   .l-aboutus_compact {
     background-size: 80%; }
 
@@ -1307,7 +1307,7 @@ select:-moz-focusing {
   background-size: cover; }
   @media screen and (min-width: 1024px) {
     .l-news {
-      background: transparent url(img/bg_news.jpg) center top no-repeat; } }
+      background: transparent url("../img/bg_news.jpg") center top no-repeat; } }
 
 .news {
   display: flex;
@@ -1405,7 +1405,7 @@ select:-moz-focusing {
 
 .l-features {
   background: transparent center top no-repeat;
-  background-image: linear-gradient(black 0%, rgba(0, 0, 0, 0.3) 50%, black 100%), linear-gradient(to left, black 0%, rgba(0, 0, 0, 0.1) 50%, black 100%), url(img/bg_features_new.jpg);
+  background-image: linear-gradient(black 0%, rgba(0, 0, 0, 0.3) 50%, black 100%), linear-gradient(to left, black 0%, rgba(0, 0, 0, 0.1) 50%, black 100%), url("../img/bg_features_new.jpg");
   background-size: cover; }
 
 .features {
@@ -1724,7 +1724,7 @@ select:-moz-focusing {
   width: calc(50% - 20px); }
 
 .l-footer {
-  background: transparent url(img/bg_footer.jpg) center bottom no-repeat;
+  background: transparent url("../img/bg_footer.jpg") center bottom no-repeat;
   background-size: auto; }
 
 .footer {
@@ -1822,7 +1822,7 @@ select:-moz-focusing {
       top: 0;
       width: 45px;
       height: 100%;
-      background: url(img/icon-gold-up.svg) no-repeat 50% 50%;
+      background: url("../img/icon-gold-up.svg") no-repeat 50% 50%;
       background-size: contain;
       transition: all 0.5s 0.2s ease-out;
       transform: rotate(180deg); }
@@ -1840,7 +1840,7 @@ select:-moz-focusing {
     .price-item__row.active {
       background-image: linear-gradient(to bottom, #fcfa89, #faa72b); }
       .price-item__row.active.active::after {
-        background-image: url(img/icon-black-down.svg);
+        background-image: url("../img/icon-black-down.svg");
         transition: all 0.5s 0.2s ease-out;
         transform: rotate(180deg); }
   .price-item__col {
@@ -2094,12 +2094,12 @@ select:-moz-focusing {
       top: 0;
       width: 35px;
       height: 100%;
-      background: url(img/icon-gold-up.svg) no-repeat 50% 50%;
+      background: url("../img/icon-gold-up.svg") no-repeat 50% 50%;
       background-size: contain;
       transition: all 0.5s 0.2s ease-out;
       transform: rotate(180deg); }
     .training-location__header.active::after {
-      background-image: url(img/icon-black-down.svg);
+      background-image: url("../img/icon-black-down.svg");
       transition: all 0.5s 0.2s ease-out;
       transform: rotate(180deg); }
 
@@ -2177,7 +2177,7 @@ select:-moz-focusing {
       height: 52px;
       left: 0;
       top: 20px;
-      background: url(img/placeholder_inv.svg) no-repeat; }
+      background: url("../img/placeholder_inv.svg") no-repeat; }
 
 .gym-photo__title {
   font-size: 30px;
@@ -2253,7 +2253,7 @@ select:-moz-focusing {
       color: #fff; }
 
 .bg-promo2 {
-  background-image: url(img/promo/promo2.jpg);
+  background-image: url("../img/promo/promo2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2261,13 +2261,13 @@ select:-moz-focusing {
   /* dpr 3 */ }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-promo2 {
-      background-image: url(img/promo/promo2@2x.jpg); } }
+      background-image: url("../img/promo/promo2@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-promo2 {
-      background-image: url(img/promo/promo2@3x.jpg); } }
+      background-image: url("../img/promo/promo2@3x.jpg"); } }
 
 .bg-promo3 {
-  background-image: url(img/promo/promo3.jpg);
+  background-image: url("../img/promo/promo3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2275,13 +2275,13 @@ select:-moz-focusing {
   /* dpr 3 */ }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-promo3 {
-      background-image: url(img/promo/promo3@2x.jpg); } }
+      background-image: url("../img/promo/promo3@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-promo3 {
-      background-image: url(img/promo/promo3@3x.jpg); } }
+      background-image: url("../img/promo/promo3@3x.jpg"); } }
 
 .bg-promo4 {
-  background-image: url(img/promo/promo4.jpg);
+  background-image: url("../img/promo/promo4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2289,13 +2289,13 @@ select:-moz-focusing {
   /* dpr 3 */ }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-promo4 {
-      background-image: url(img/promo/promo4@2x.jpg); } }
+      background-image: url("../img/promo/promo4@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-promo4 {
-      background-image: url(img/promo/promo4@3x.jpg); } }
+      background-image: url("../img/promo/promo4@3x.jpg"); } }
 
 .bg-promo5 {
-  background-image: url(img/promo/promo5.jpg);
+  background-image: url("../img/promo/promo5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2303,13 +2303,13 @@ select:-moz-focusing {
   /* dpr 3 */ }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-promo5 {
-      background-image: url(img/promo/promo5@2x.jpg); } }
+      background-image: url("../img/promo/promo5@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-promo5 {
-      background-image: url(img/promo/promo5@3x.jpg); } }
+      background-image: url("../img/promo/promo5@3x.jpg"); } }
 
 .bg-trainers {
-  background-image: url(img/bg_trainers.jpg);
+  background-image: url("../img/bg_trainers.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2319,13 +2319,13 @@ select:-moz-focusing {
   max-height: 475px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-trainers {
-      background-image: url(img/bg_trainers@2x.jpg); } }
+      background-image: url("../img/bg_trainers@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-trainers {
-      background-image: url(img/bg_trainers@3x.jpg); } }
+      background-image: url("../img/bg_trainers@3x.jpg"); } }
 
 .bg-puteeva {
-  background-image: url(img/trainers/puteeva_wide.jpg);
+  background-image: url("../img/trainers/puteeva_wide.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2335,13 +2335,13 @@ select:-moz-focusing {
   max-height: 475px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-puteeva {
-      background-image: url(img/trainers/puteeva_wide@2x.jpg); } }
+      background-image: url("../img/trainers/puteeva_wide@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-puteeva {
-      background-image: url(img/trainers/puteeva_wide@3x.jpg); } }
+      background-image: url("../img/trainers/puteeva_wide@3x.jpg"); } }
 
 .bg-lysova {
-  background-image: url(img/trainers/lysova_wide.jpg);
+  background-image: url("../img/trainers/lysova_wide.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2351,13 +2351,13 @@ select:-moz-focusing {
   max-height: 475px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-lysova {
-      background-image: url(img/trainers/lysova_wide@2x.jpg); } }
+      background-image: url("../img/trainers/lysova_wide@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-lysova {
-      background-image: url(img/trainers/lysova_wide@3x.jpg); } }
+      background-image: url("../img/trainers/lysova_wide@3x.jpg"); } }
 
 .bg-kolbun {
-  background-image: url(img/trainers/kolbun_wide.jpg);
+  background-image: url("../img/trainers/kolbun_wide.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2367,13 +2367,13 @@ select:-moz-focusing {
   max-height: 475px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-kolbun {
-      background-image: url(img/trainers/kolbun_wide@2x.jpg); } }
+      background-image: url("../img/trainers/kolbun_wide@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-kolbun {
-      background-image: url(img/trainers/kolbun_wide@3x.jpg); } }
+      background-image: url("../img/trainers/kolbun_wide@3x.jpg"); } }
 
 .bg-makarova {
-  background-image: url(img/trainers/makarova_wide.jpg);
+  background-image: url("../img/trainers/makarova_wide.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2383,13 +2383,13 @@ select:-moz-focusing {
   max-height: 475px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-makarova {
-      background-image: url(img/trainers/makarova_wide@2x.jpg); } }
+      background-image: url("../img/trainers/makarova_wide@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-makarova {
-      background-image: url(img/trainers/makarova_wide@3x.jpg); } }
+      background-image: url("../img/trainers/makarova_wide@3x.jpg"); } }
 
 .bg-drozdova {
-  background-image: url(img/trainers/drozdova_wide.jpg);
+  background-image: url("../img/trainers/drozdova_wide.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2399,13 +2399,13 @@ select:-moz-focusing {
   max-height: 475px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-drozdova {
-      background-image: url(img/trainers/drozdova_wide@2x.jpg); } }
+      background-image: url("../img/trainers/drozdova_wide@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-drozdova {
-      background-image: url(img/trainers/drozdova_wide@3x.jpg); } }
+      background-image: url("../img/trainers/drozdova_wide@3x.jpg"); } }
 
 .bg-marianna {
-  background-image: url(img/trainers/marianna_wide.jpg);
+  background-image: url("../img/trainers/marianna_wide.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2415,10 +2415,10 @@ select:-moz-focusing {
   max-height: 475px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-marianna {
-      background-image: url(img/trainers/marianna_wide@2x.jpg); } }
+      background-image: url("../img/trainers/marianna_wide@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-marianna {
-      background-image: url(img/trainers/marianna_wide@3x.jpg); } }
+      background-image: url("../img/trainers/marianna_wide@3x.jpg"); } }
 
 /* Style pages */
 .bg-zumba {
@@ -2470,7 +2470,7 @@ select:-moz-focusing {
       background-image: url("/img/styles/contemp_wide@3x.jpg"); } }
 
 .bg-booty {
-  background-image: url(img/trainers/marianna_wide.jpg);
+  background-image: url("../img/trainers/marianna_wide.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -2480,10 +2480,10 @@ select:-moz-focusing {
   max-height: 475px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .bg-booty {
-      background-image: url(img/trainers/marianna_wide@2x.jpg); } }
+      background-image: url("../img/trainers/marianna_wide@2x.jpg"); } }
   @media only screen and (-webkit-min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min--moz-device-pixel-ratio: 3) and (min-width: 768px), only screen and (-o-min-device-pixel-ratio: 3 / 1) and (min-width: 768px), only screen and (min-device-pixel-ratio: 3) and (min-width: 768px), only screen and (min-resolution: 3dppx) {
     .bg-booty {
-      background-image: url(img/trainers/marianna_wide@3x.jpg); } }
+      background-image: url("../img/trainers/marianna_wide@3x.jpg"); } }
 
 .bg-vogue {
   background-image: url("/img/styles/vogue_wide.jpg");
