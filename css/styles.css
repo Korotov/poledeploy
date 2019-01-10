@@ -2,12 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @charset "UTF-8";
 @font-face {
-  font-family: "PF Square Sans Pro";
-  src: url("../fonts/PFSquareSansProExtraBlack.ttf") format("TrueType");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
   font-family: "Helvetica Neue";
   src: url("../fonts/HelveticaNeueCyr-Roman.otf") format("OpenType");
   font-style: normal;
